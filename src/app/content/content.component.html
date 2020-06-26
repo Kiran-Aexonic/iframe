@@ -3,13 +3,13 @@
     <button class="btn btn-primary mt-2" (click)="isPlay = !isPlay">{{ isPlay? 'Hide
         Video':'Play Video'}}</button>
     <button class="btn btn-primary mt-2 ml-3" (click)="isDisplay = !isDisplay">{{isDisplay? 'Hide Image':'Display Image'}}</button>
-    <div class="row">
+    <!-- <div class="row">
         <div *ngIf="isPlay" class="mt-2">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/M2kSJbLbIgQ" 
         frameborder="0" allowfullscreen>
         </iframe> 
         </div>
-    </div>
+    </div> -->
     <div class="row">
     <div *ngIf="isDisplay" class="col-12 mt-2">
         <iframe name='graph'  width="860" height="915"  class="img-fluid" src="./assets/img1.jpg"></iframe>
